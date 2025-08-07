@@ -1,4 +1,4 @@
-const fruits = ["apple", "banana", "mango", "grape", "orange"];
+const fruits = ["goa", "watermelon", "pineapple", "apple", "banana"];
 
 //filter()
 const longFruits = fruits.filter(fruit => fruit.length > 5);
@@ -27,3 +27,4 @@ console.log(fruitsCopy);
 const moreFruits = ["papaya", "melon"];
 const all = [...fruits, ...moreFruits];
 console.log(all); 
+
