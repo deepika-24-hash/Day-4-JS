@@ -1,9 +1,9 @@
 const student = {
-  name: "Anu",
-  age: 18,
-  course: "Computer Science",
+  name: "Deepika",
+  age: 19,
+  course: "Information Technology",
   address: {
-    city: "Chennai",
+    city: "Coimbatore",
     pincode: 600001
   }
 };
@@ -26,4 +26,5 @@ console.log(pincode);
 //Spread operator 
 const extraInfo = { grade: "A", age: 19 };
 const updatedStudent = { ...student, ...extraInfo };
+
 console.log(updatedStudent);
